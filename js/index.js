@@ -30,15 +30,15 @@ const swiper2 = new Swiper('.models-container', {
   // Navigation arrows
   breakpoints: {
     640: {
-      slidesPerView: 2.4,
+      slidesPerView: 2,
       spaceBetween: 20,
     },
     1200: {
-      slidesPerView: 3.3,
+      slidesPerView: 3,
       spaceBetween: 40,
     },
     1480: {
-      slidesPerView: 4.3,
+      slidesPerView: 4,
       spaceBetween: 50,
     },
   },
@@ -60,7 +60,7 @@ links.forEach(link => {
 const swiper3 = new Swiper('.catalog-container', {
   spaceBetween: 40,
   loop: true,
-  slidesPerView: 1.2,
+  slidesPerView: 1,
   freeMode: true,
   grabCursor: true,
 
