@@ -23,7 +23,7 @@ burgerBtn.addEventListener('click', function () {
 const swiper2 = new Swiper('.models-container', {
   spaceBetween: 40,
   // grabCursor: true,
-  slidesPerView: 1.2,
+  slidesPerView: 1,
   grabCursor: true,
   freeMode: true,
   loop: true,
